@@ -1,0 +1,13 @@
+node_modules/*
+
+/test/
+/build/
+/lib/
+
+# 其他类型文件
+*.js
+*.json
+*.png
+*.eot
+*.ttf
+*.woff

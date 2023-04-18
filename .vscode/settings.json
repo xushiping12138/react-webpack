@@ -1,0 +1,22 @@
+{
+  "files.associations": {
+    "*.json": "jsonc",
+    "*.cjson": "jsonc"
+  },
+
+  // eslint 在报错时保存修复
+  "eslint.validate": ["javascript", "typescript"],
+  "eslint.codeActionsOnSave.mode": "problems",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "stylelint.validate": ["css", "less", "postcss", "scss", "vue", "sass"],
+  "stylelint.customSyntax": "postcss-scss",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
+  "files.eol": "\n"
+}
